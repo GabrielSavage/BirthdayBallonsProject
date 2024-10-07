@@ -1,0 +1,22 @@
+/* Apply pale blue background to the body */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #b3d9ff; /* Pale blue background */
+    font-family: 'Arial', sans-serif;
+    overflow: hidden; /* Prevent scrolling */
+  }
+  
+  /* Ensure the canvas covers the entire viewport and is transparent */
+  #balloonCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* Ensure the canvas stays behind */
+    display: block;
+    background-color: transparent; /* Transparent canvas */
+  }
+  
